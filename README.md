@@ -1,10 +1,10 @@
 # Simple-Powershell-Setup
 
-<mark>**Initial**:</mark>
+#### <mark>**Initial**:</mark>
 
 <img title="" src="./images/2022-08-06-23-46-49-image.png" alt="" width="518">
 
-<mark>**Final**: </mark>
+#### <mark>**Final**: </mark>
 
 <mark>(Anaconda Environment Status + Only Current Directory + Entire Git Status + Tabs)</mark>
 
@@ -14,7 +14,7 @@
 
 ---
 
-**Background**:
+### **Background**:
 
 I am a ML developer and my current professional as well as my personal development setup is on Windows10 and Windows11. As a developer, terminal is an essential part of my daily life where I use the below listed things:
 
@@ -32,7 +32,7 @@ I am a ML developer and my current professional as well as my personal developme
 
 ---
 
-**Need**:
+### **Need**:
 
 - If I am inside a deep nested file-path, the terminal readability reduces
 
@@ -42,7 +42,7 @@ I am a ML developer and my current professional as well as my personal developme
 
 ---
 
-**Steps:**
+### **Steps:**
 
 1. [Install New Windows Terminal:](https://github.com/microsoft/terminal)
    
