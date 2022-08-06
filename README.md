@@ -84,10 +84,10 @@ I am a ML developer and my current professional as well as my personal developme
    - ```powershell
      Import-Module posh-git
      
-     Function Prompt {"$( ( get-item $pwd ).Name)/$(Write-VcsStatus)> "}WE ARE DONE. 
+     Function Prompt {"$( ( get-item $pwd ).Name)/$(Write-VcsStatus)> "}
      
      ```
-
 ---
+### WE ARE DONE. 
 
 <u>***This will also work for standalone Powershell interface***</u>.
