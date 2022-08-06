@@ -46,13 +46,21 @@ I am a ML developer and my current professional as well as my personal developme
    
    - Easiest way to install is Microsoft Store or Windows Package Manager (I prefer this)
    
-   - **Winget Command**: winget install --id=Microsoft.WindowsTerminal  -e
+   - **Winget Command**: 
+   
+   - ```powershell
+     winget install --id=Microsoft.WindowsTerminal  -e
+     ```
 
 2. [Install Git:](https://gitforwindows.org/?ref=winstall)
    
    - Install from the website or my preferred way is: Winget (Windows package manager)
    
-   - **Winget Command:** winget install --id=Git.Git  -e
+   - **Winget Command:** 
+   
+   - ```powershell
+     winget install --id=Git.Git  -e
+     ```
 
 3. **Install your needed files:**
    
@@ -85,9 +93,10 @@ I am a ML developer and my current professional as well as my personal developme
      Import-Module posh-git
      
      Function Prompt {"$( ( get-item $pwd ).Name)/$(Write-VcsStatus)> "}
-     
      ```
+
 ---
-### WE ARE DONE. 
+
+### WE ARE DONE.
 
 <u>***This will also work for standalone Powershell interface***</u>.
