@@ -10,8 +10,6 @@
 
 <img title="" src="./images/2022-08-06-23-47-29-image.png" alt="" width="608">
 
-
-
 ---
 
 ### **Background**:
@@ -80,19 +78,16 @@ I am a ML developer and my current professional as well as my personal developme
      notepad $PROFILE
      ```
    
-   . [Microsoft.PowerShell_profile.ps1](./Microsoft.PowerShell_profile.ps1) Put the below text within that file: 
+   - [Microsoft.PowerShell_profile.ps1](./Microsoft.PowerShell_profile.ps1) 
+     Put the below text within that file: 
+   
+   - ```powershell
+     Import-Module posh-git
      
-     . ```powershell
-       Import-Module posh-git
-       
-       Function Prompt {"$( ( get-item $pwd ).Name)/$(Write-VcsStatus)> "}
-       ```
-
-7. WE ARE DONE. 
-   JUST RESTART YOUR TERMINAL AND SEE THE CHANGES 
+     Function Prompt {"$( ( get-item $pwd ).Name)/$(Write-VcsStatus)> "}WE ARE DONE. 
+     
+     ```
 
 ---
 
 <u>***This will also work for standalone Powershell interface***</u>.
-
-
